@@ -54,7 +54,7 @@ hier de naam van de pagina
 
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
-
+De website kleineert bij 1200px width 992px width 768px width
 ### de hele pagina: 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
