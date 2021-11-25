@@ -55,14 +55,19 @@ hier de naam van de pagina
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 De website kleineert bij 1200px width 992px width 768px width
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
+### de hele pagina:
+1200px
+<img src="images/breakdown1200.png" width="375px" alt="breakdown van de hele pagina">
+992px
+<img src="images/breakdown992.png" width="375px" alt="breakdown van de hele pagina">
+768px
+<img src="images/breakdown768.png" width="375px" alt="breakdown van de hele pagina">
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+768px menu
+<img src="images/menu768.png" width="375px" alt="breakdown van een dynamisch deel">
+1200px menu
+<img src="images/menu1200.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
