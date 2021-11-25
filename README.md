@@ -81,7 +81,7 @@ De website kleineert bij 1200px width 992px width 768px width
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond het positioneren soms wel lastig. Het werkte soms gewoon niet. Ook heb ik veel moeite gehad met die media query. Om te begrijpen waarom de button bij 768 opeens verwdijnt. Maar dat werd dus met een media query gedaan.
 
 
 ### Agenda voor meeting
