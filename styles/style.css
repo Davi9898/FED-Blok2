@@ -5,7 +5,7 @@
 
 body{
   margin:0;
-  overflow:hidden;
+  overflow:scroll;
 }
 
 header{
@@ -65,11 +65,12 @@ nav li{
 }
 
 header div:first-of-type {
-  width: 70px;
+  width: 100px;
   display: flex;
   align-items: center;
   left: 20px;
   position: relative;
+  padding-top: 1.3em;
 }
 header div:nth-of-type(2){
 width: 60px;
@@ -92,4 +93,103 @@ font-size: medium;
 
 }
 
+main{
+  padding-top: 65px;
+}
 
+video{
+  width:100%;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100%;
+}
+
+@media (min-width: 768px){
+    .horizontaal{
+      display:none;
+    }
+}
+
+@media (max-width: 768px){
+    .verticaal{
+      display:none;
+    } 
+}
+
+video p{
+  color:red;
+  z-index: 999;
+}
+
+h1{
+  font-family: 'Caveat', cursive;
+}
+h2{
+  font-family: 'Caveat', cursive;
+}
+
+.video_container{
+  width: 100%;
+}
+
+.text_container{
+  width:100%;
+  position: absolute;
+  left: 15%;
+  top:25%;
+  font-size: 1.5rem;
+  color:white;
+}
+
+.text_container p{
+  position:absolute;
+  bottom: -1em;
+  font-size: 0.9em;
+  font-family: 'Caveat', cursive;
+}
+
+.button_container{
+  width:100%;
+  display:block;
+  bottom:20%;
+}
+
+.button_container button{
+  height: 5em;
+  width: 20em;
+  margin: 0.5em;
+  position: relative;
+  left: 3.5em;
+  bottom: 9.5em;
+  border: none;
+}
+
+.button_container button:nth-of-type(1){
+background-color: #f79533;
+;
+}
+
+.button_container button:nth-of-type(2){
+  background-color: #8dc63f;
+  ;
+}
+
+.button_container button:nth-of-type(3){
+  background-color: #74c0e9;
+  ;
+}
+
+button h2{
+  position: relative;
+  top: -0.5em;
+  color: white;
+  left: -3em;
+}
+
+button p{
+  position: relative;
+  top: -0.5em;
+  color: white;
+  left: -3em;
+}
