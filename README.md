@@ -113,7 +113,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben niet super erg opgeschoten deze week door omstandigheden. Ik moet nog flink aan de slag om alles af te krijgen.
 
 
 ### Agenda voor meeting
