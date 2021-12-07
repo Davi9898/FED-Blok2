@@ -1,15 +1,21 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  margin:0;
-  overflow:scroll;
+body {
+  margin: 0 auto;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
 }
 
-header{
-  background:white;
+header {
+  background: white;
   position: fixed;
   width: 100%;
   display: flex;
@@ -19,47 +25,46 @@ header{
   max-width: 100vw;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   header button {
     display: none;
   }
 }
 
-
-img{
+img {
   width: 100%;
-  
+
   height: auto;
 }
 
-nav{
-  height:100%;
-  width:100%;
+nav {
+  height: 100%;
+  width: 100%;
   background-color: red;
-  position:absolute;
+  position: absolute;
   right: 0;
   transform: translateX(100%);
-  transition: 0.5s cubic-bezier(.2,0,0,1);
+  transition: 0.5s cubic-bezier(0.2, 0, 0, 1);
 }
 
-nav div:first-of-type{
-  position:absolute;
+nav div:first-of-type {
+  position: absolute;
 }
 
-nav.toonnav{
+nav.toonnav {
   transform: translateY(0%);
 }
 
-nav li{
+nav li {
   padding: 15px;
   list-style: none;
   position: relative;
   top: 10%;
-  border-bottom: 1px solid rgba(64,60,54,.2);
+  border-bottom: 1px solid rgba(64, 60, 54, 0.2);
 }
 
-@media (min-width: 768px){
-  nav{
+@media (min-width: 768px) {
+  nav {
     width: 30%;
   }
 }
@@ -72,124 +77,221 @@ header div:first-of-type {
   position: relative;
   padding-top: 1.3em;
 }
-header div:nth-of-type(2){
-width: 60px;
-position: relative;
-background-color: #f8f8f8;
-height: 65px;
+header div:nth-of-type(2) {
+  width: 60px;
+  position: relative;
+  background-color: #f8f8f8;
+  height: 65px;
 }
 
 header div:nth-of-type(2) img {
-position: relative;
-top: -0.6rem;
-left: 0.1rem;
+  position: relative;
+  top: -0.6rem;
+  left: 0.1rem;
 }
 
-header span{
-position:relative;
-bottom: 30px;
-left: 0.8rem;
-font-size: medium;
-
+header span {
+  position: relative;
+  bottom: 30px;
+  left: 0.8rem;
+  font-size: medium;
 }
 
-main{
+main {
   padding-top: 65px;
 }
 
-video{
-  width:100%;
-  padding-top: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+.video_container {
+  width: 100%;
+  height: 600px;
+}
+
+p{
+  font-family: 'Caveat', cursive;
+  font-family: 'PT Sans', sans-serif;
+}
+
+video {
+  width: 100%;
   height: 100%;
+  object-fit:cover;
 }
 
-@media (min-width: 768px){
-    .horizontaal{
-      display:none;
-    }
+@media (min-width: 768px) {
+  .horizontaal {
+    display: none;
+  }
+  video{
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 }
 
-@media (max-width: 768px){
-    .verticaal{
-      display:none;
-    } 
+@media (max-width: 768px) {
+  .verticaal {
+    display: none;
+  }
+  
 }
 
-video p{
-  color:red;
+video p {
+  color: red;
   z-index: 999;
 }
 
-h1{
-  font-family: 'Caveat', cursive;
+h1 {
+  font-family: "Caveat", cursive;
 }
-h2{
-  font-family: 'Caveat', cursive;
+h2 {
+  font-family: "Caveat", cursive;
 }
 
-.video_container{
+.text_container {
   width: 100%;
-}
-
-.text_container{
-  width:100%;
-  position: absolute;
-  left: 15%;
-  top:25%;
   font-size: 1.5rem;
-  color:white;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 5%;
 }
 
-.text_container p{
-  position:absolute;
+.text_container p {
+  position: absolute;
   bottom: -1em;
-  font-size: 0.9em;
-  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  font-family: "Caveat", cursive;
+  bottom: -2rem;
+  font-weight: bold;
 }
 
-.button_container{
-  width:100%;
-  display:block;
-  bottom:20%;
-}
-
-.button_container button{
-  height: 5em;
-  width: 20em;
-  margin: 0.5em;
+.button_container {
+  width: 100%;
+  bottom: -3rem;
+  color: white;
+  padding:0 1.8rem;
   position: relative;
-  left: 3.5em;
-  bottom: 9.5em;
+  display:flex;
+  margin-top: -3rem;
+  margin: 0 auto;
+  max-width: 768px;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .button_container {
+    margin-top: -11.5rem;
+    display:block;
+  }
+}
+
+@media (min-width: 992px) {
+  .button_container {
+    max-width: 1200px;
+  }
+}
+
+
+.button_container a {
+  margin: 1rem 0;
   border: none;
+  display: block;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  width: 100%;
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
 }
 
-.button_container button:nth-of-type(1){
-background-color: #f79533;
-;
+.button_container a:nth-of-type(1) {
+  background-color: #f79533;
 }
 
-.button_container button:nth-of-type(2){
+.button_container a:nth-of-type(2) {
   background-color: #8dc63f;
-  ;
 }
 
-.button_container button:nth-of-type(3){
+.button_container a:nth-of-type(3) {
   background-color: #74c0e9;
-  ;
 }
 
-button h2{
-  position: relative;
-  top: -0.5em;
-  color: white;
-  left: -3em;
+.button_container h2 {
+  
+  
+  
 }
 
-button p{
-  position: relative;
-  top: -0.5em;
-  color: white;
-  left: -3em;
+.button_container p {
+  
+  
+  
 }
+
+.container2{
+  background-color: #f9f3d9;
+  padding-top: 9rem;
+  margin-top: -5rem;
+  position:relative;
+  height: 100%;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.container2::before {
+  content: '';
+  transform: translateY(-50%) rotate(-5deg);
+  position: absolute;
+  left: -10rem;
+  right: -10rem;
+  top:100%;
+  background-color: #f9f3d9;
+  height: 3rem;
+}
+
+.container2 .kolom{
+  width: 50%;
+  padding: 1.5rem;
+}
+
+.container2 img{
+  position: relative;
+  width: 90%;
+  margin: 1.1rem;
+  transform: rotate(3deg);
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
+
+}
+
+.container2 h2 {
+  font-size: 2rem;
+  color: #f79533;
+  font-family: 'Caveat', cursive;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container2 p{
+
+}
+
+.container2 a{
+  background-color: #f79533;
+  padding: 0.8em;
+  color:white;
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
+  display: inline-block;
+  margin-top: 2rem;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container2 .kolom{
+    width: 100%;
+  }
+  
+}
+
+.container2 a span {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: .5rem;
+}
+
+
