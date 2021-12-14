@@ -63,8 +63,7 @@ De website kleineert bij 1200px width 992px width 768px width
 768px
 <img src="images/breakdown768.png" width="375px" alt="breakdown van de hele pagina">
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-768px menu
+ 
 <img src="images/menu768.png" width="375px" alt="breakdown van een dynamisch deel">
 1200px menu
 <img src="images/menu1200.png" width="375px" alt="breakdown van een dynamisch deel">
