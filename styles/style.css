@@ -14,37 +14,46 @@ body {
   position: relative;
 }
 
-header {
-  background: white;
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  height: 65px;
-  position: fixed;
-  max-width: 100vw;
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+}
+h2 {
+  font-family: "Caveat", cursive;
 }
 
-@media (max-width: 768px) {
-  header button {
-    display: none;
-  }
+h3{
+  font-family: "Caveat", cursive;
+}
+
+h4{
+  font-family: "Caveat", cursive;
+  font-size: 1.4rem;
+}
+
+
+p{
+  font-family: 'Caveat', cursive;
+  font-family: 'PT Sans', sans-serif;
 }
 
 img {
   width: 100%;
-
   height: auto;
 }
+
+/* Navigatie */
 
 nav {
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: white;
   position: absolute;
-  right: 0;
   transform: translateX(100%);
   transition: 0.5s cubic-bezier(0.2, 0, 0, 1);
+  z-index: 3;
+  padding-top: 1.8rem;
+  right: 0;
 }
 
 nav div:first-of-type {
@@ -55,12 +64,25 @@ nav.toonnav {
   transform: translateY(0%);
 }
 
+nav ul{
+  padding: 1rem;
+  
+}
+
 nav li {
   padding: 15px;
   list-style: none;
   position: relative;
-  top: 10%;
   border-bottom: 1px solid rgba(64, 60, 54, 0.2);
+  margin-top: 1.3rem;
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+  font-family: 'PT Sans', sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 @media (min-width: 768px) {
@@ -69,47 +91,56 @@ nav li {
   }
 }
 
-header div:first-of-type {
-  width: 100px;
+/*Header*/
+
+header {
+  z-index: 5;
+  background: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+  header button {
+    display: none;
+  }
+}
+
+
+header figure {
+  width: 80px;
   display: flex;
   align-items: center;
-  left: 20px;
+  left: 4%;
   position: relative;
-  padding-top: 1.3em;
-}
-header div:nth-of-type(2) {
-  width: 60px;
-  position: relative;
-  background-color: #f8f8f8;
-  height: 65px;
 }
 
-header div:nth-of-type(2) img {
-  position: relative;
-  top: -0.6rem;
-  left: 0.1rem;
+header figure:nth-of-type(2) {
+  left: -1%;
 }
 
-header span {
-  position: relative;
-  bottom: 30px;
-  left: 0.8rem;
-  font-size: medium;
-}
+
+
+
+
 
 main {
   padding-top: 65px;
 }
 
-.video_container {
+
+/* Video met tekst homepage */
+
+
+.video-blok {
   width: 100%;
   height: 600px;
 }
 
-p{
-  font-family: 'Caveat', cursive;
-  font-family: 'PT Sans', sans-serif;
-}
 
 video {
   width: 100%;
@@ -140,23 +171,17 @@ video p {
   z-index: 999;
 }
 
-h1 {
-  font-family: "Caveat", cursive;
-}
-h2 {
-  font-family: "Caveat", cursive;
-}
 
-.text_container {
+.video-blok article {
   width: 100%;
   font-size: 1.5rem;
   color: white;
-  position: absolute;
-  top: 10%;
-  left: 5%;
+  position: relative;
+  left: 7%;
+  bottom: 30rem;
 }
 
-.text_container p {
+.video-blok article p {
   position: absolute;
   bottom: -1em;
   font-size: 1.5rem;
@@ -165,7 +190,10 @@ h2 {
   font-weight: bold;
 }
 
-.button_container {
+
+/* hier beginnen de buttons voor de homepage */
+
+.buttons-homepage {
   width: 100%;
   bottom: -3rem;
   color: white;
@@ -179,20 +207,20 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  .button_container {
+  .buttons-homepage {
     margin-top: -11.5rem;
     display:block;
   }
 }
 
 @media (min-width: 992px) {
-  .button_container {
+  .buttons-homepage {
     max-width: 1200px;
   }
 }
 
 
-.button_container a {
+.buttons-homepage a {
   margin: 1rem 0;
   border: none;
   display: block;
@@ -201,31 +229,23 @@ h2 {
   box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
 }
 
-.button_container a:nth-of-type(1) {
+.buttons-homepage a:nth-of-type(1) {
   background-color: #f79533;
 }
 
-.button_container a:nth-of-type(2) {
+.buttons-homepage a:nth-of-type(2) {
   background-color: #8dc63f;
 }
 
-.button_container a:nth-of-type(3) {
+.buttons-homepage a:nth-of-type(3) {
   background-color: #74c0e9;
 }
 
-.button_container h2 {
-  
-  
-  
-}
 
-.button_container p {
-  
-  
-  
-}
+/* Hier begint het kerstvakantieblok */
 
-.container2{
+
+.kerstvakantie-blok{
   background-color: #f9f3d9;
   padding-top: 9rem;
   margin-top: -5rem;
@@ -235,9 +255,9 @@ h2 {
   flex-wrap: wrap;
 }
 
-.container2::before {
+.kerstvakantie-blok::before {
   content: '';
-  transform: translateY(-50%) rotate(-5deg);
+  transform: translateY(-50%) rotate(-3deg);
   position: absolute;
   left: -10rem;
   right: -10rem;
@@ -246,32 +266,38 @@ h2 {
   height: 3rem;
 }
 
-.container2 .kolom{
+.kerstvakantie-blok article{
   width: 50%;
   padding: 1.5rem;
 }
 
-.container2 img{
+.kerstvakantie-blok figure{
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.kerstvakantie-blok img{
   position: relative;
   width: 90%;
   margin: 1.1rem;
   transform: rotate(3deg);
   box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
-
+  margin-bottom:-2.4rem;
 }
 
-.container2 h2 {
+.kerstvakantie-blok h2 {
   font-size: 2rem;
   color: #f79533;
   font-family: 'Caveat', cursive;
   font-family: 'PT Sans', sans-serif;
+  padding-left: .8rem;
 }
 
-.container2 p{
-
+.kerstvakantie-blok p {
+  padding-left: .8rem;
 }
 
-.container2 a{
+.kerstvakantie-blok a{
   background-color: #f79533;
   padding: 0.8em;
   color:white;
@@ -280,18 +306,306 @@ h2 {
   margin-top: 2rem;
   font-family: "Caveat", cursive;
   font-weight: bold;
+  left: .8rem;
+  position: relative;
 }
 
 @media (max-width: 768px) {
-  .container2 .kolom{
+  .kerstvakantie-blok article{
     width: 100%;
   }
   
 }
 
-.container2 a span {
+.kerstvakantie-blok a span {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: .5rem;
 }
 
 
+/* Hier begint de CSS voor de beleefblokken */
+
+
+.beleef-blokken{
+  padding: 5rem 1rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: #74c0e9;
+}
+
+.beleef-blokken h2{
+  color: #74c0e9;
+  text-align: center;
+  font-size: 2.25rem;
+  padding-bottom: 1rem;
+  display: block;
+  width: 100%;
+}
+
+.beleef-blokken div{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.beleef-blokken div:nth-of-type(2) {
+  color: #f79533;
+}
+
+.beleef-blokken div:nth-of-type(3) {
+  color: #8dc63f;
+}
+
+.beleef-blokken figure{
+  width: 40%;
+}
+
+.beleef-blokken article {
+  width: 60%;
+  padding: 1rem;
+}
+
+.beleef-blokken h3 {
+  padding-bottom: .5rem;
+  font-size: 1.4rem;
+}
+
+.beleef-blokken img{
+  object-fit: cover;
+  height: 100%;
+}
+
+.beleef-blokken a{
+  text-decoration: none;
+  display:inline-block;
+  padding-top: 1rem;
+  color: currentColor;
+}
+
+.beleef-blokken h4{
+  font-size: 0.9rem;
+  padding-bottom: .3rem;
+  color: #bbb;
+}
+
+
+.beleef-blokken p{
+  font-size: .9rem;
+  color: black;
+}
+
+
+/* Hier begint de CSS voor de ontdekblokken */
+
+
+.ontdek-blokken{
+  background-color: #ebf3f8;
+  display: flex;
+  flex-wrap: wrap;
+  color: #74c0e9;
+}
+
+.ontdek-blokken h2{
+  color: #74c0e9;
+  font-size: 2rem;
+  padding: 2rem 0 0 2rem;
+}
+
+.ontdek-blokken > p {
+  color: black;
+  padding-left: 2rem;
+  padding-top: .5rem;
+  
+}
+
+.ontdek-blokken article p {
+  color: black;
+}
+
+.ontdek-blokken article {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  background-color: white;
+  height: 100%;
+  margin: 1.4rem;
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
+}
+
+.ontdek-blokken div {
+  width: 70%;
+  padding: 1rem;
+}
+
+.ontdek-blokken article a {
+  color: currentColor;
+  text-decoration: none;
+  padding-top: 0.4rem;
+  display: inline-block;
+}
+
+.ontdek-blokken article:nth-of-type(2) {
+  color: #f79533;
+}
+
+.ontdek-blokken article:nth-of-type(3) {
+  color: #8dc63f;
+}
+
+
+.ontdek-blokken article figure{
+  width: 30%;
+}
+
+.ontdek-blokken article img{
+  object-fit: cover;
+  height: 100%;
+}
+
+.ontdek-blokken > figure {
+  aspect-ratio: 2/1.7;
+  overflow: hidden;
+}
+
+.ontdek-blokken > figure img {
+  width: 110%;
+  margin: -5%;
+}
+
+.ontdek-blokken figure a {
+  position: relative;
+  display: inline-block;
+  top: -9rem;
+  left: 2rem;
+  background-color: #ef3636;;
+  font-family: "Caveat", cursive;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1.9rem 0.5rem 1.9rem ;
+  font-size: 1.2rem;
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%); 
+}
+
+/*  Footer */
+
+footer {
+  background-color: #f4f9ee;
+  padding-top: 3rem;
+}
+
+footer article a{
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  margin-top: 1.6rem;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+footer article p {
+  padding-left: 1.5rem;
+  padding-top: .2rem;
+}
+
+footer > p {
+  padding-left: 1.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer figure{
+  padding-bottom: 1rem;
+  padding-left: 1.0rem;
+}
+
+footer img {
+  width: 15%;
+  height:40px;
+  position: relative;
+  bottom: 2.5rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+
+
+/* In het dierenpark HTML pagina 2 */
+
+.dierenpark-blokken {
+  padding-top: 2rem;
+  background-color:#f4f9ee;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dierenpark-blokken > a {
+  color: white;
+  text-decoration: none;
+  background-color: #8dc63f;
+  padding: .7rem;
+  margin-left: 1.4rem;
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%); 
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+}
+
+.dierenpark-blokken h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #8dc63f;
+  margin-left: 1.4rem;
+  font-size: 2.6rem;
+}
+
+.dierenpark-blokken div{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.dierenpark-blokken figure {
+ width: 40%;
+}
+
+.dierenpark-blokken article {
+  width: 60%;
+  padding: 1rem;
+}
+
+.dierenpark-blokken h3 {
+  padding-bottom: .5rem;
+  font-size: 1.4rem;
+  color:#74c0e9;
+}
+
+.dierenpark-blokken img{
+  object-fit: cover;
+  height: 100%;
+}
+
+.dierenpark-blokken article a{
+  text-decoration: none;
+  display: inline-block;
+  padding-top:1rem;
+  color: #74c0e9;
+  font-family: "Caveat", cursive;
+  font-size: 1.4rem;
+}
+
+.dierenpark-blokken p{
+  font-size: .9rem;
+}
+
+.site2 footer {
+  background-color: white;
+}

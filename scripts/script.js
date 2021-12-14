@@ -1,4 +1,4 @@
 // JavaScript Document
-document.querySelector(".hamburgermenu").addEventListener("click", function(){
+document.querySelector("header figure:nth-of-type(2)").addEventListener("click", function(){
     document.querySelector("nav").classList.toggle("toonnav");
 })

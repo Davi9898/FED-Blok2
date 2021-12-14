@@ -18,12 +18,15 @@
 
 <body>
 	<div class="site">
+		
+		<!--Navigatie menu-->
+
 		<nav>
-			<div>Zoeken</div>
-			<div>Sluit</div>
 			<ul>
 				<li>Koop je tickets</li>
-				<li>In het dierenpark</li>
+				<a href="pages/inhetdierenpark.html">
+					<li>In het dierenpark</li>
+				</a>
 				<li>Parkagenda</li>
 				<li>Onze dieren</li>
 				<li>Praktische info</li>
@@ -32,79 +35,192 @@
 				<li>Contact</li>
 			</ul>
 		</nav>
+
+		<!--Header met logo en hamburgermenu-->
+
 		<header>
 			<button>Koop je tickets > </button>
-			<div><img src="images/logodierenpark.png" alt="Logo Dierenpark Amersfoort"></div>
-			<div class="hamburgermenu"><img  src="images/hamburgermenu.png" alt="Hamburgermenu">
-			<span>Menu</span>
-			</div>
+			<figure>
+				<a href="index.html">
+					<img src="images/logodierenpark.png" alt="Logo Dierenpark Amersfoort">
+				</a>
+			</figure>
+			<figure>
+				<img  src="images/hamburgermenu.png" alt="Hamburgermenu">
+			</figure>
 			
 		</header>
+		
+		
 		<main>
-        <div class="video_container">
+
+		<!-- Videoblokje met text!-->
+
+        <section class="video-blok">
           <video loop muted autoplay class="verticaal">
             <source src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/DPA_LANG_LQ_1598x616_V3.mp4" type="video/mp4">
           </video>
           <video loop muted autoplay class="horizontaal paddingvideo">
             <source src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/Verticaal-2.mp4" type="video/mp4">
           </video>
-          <div class="text_container">
+          <article>
             <h1>Ontdek<br> DierenPark<br> Amersfoort</h1>
             <p>Dé dierentuin voor kinderen!</p>
-          </div>
-        </div>
-			<section class="button_container">
-				<a>
-					<h2>Koop je tickets</h2>
-					<p>Bezoek reserveren</p>
-				</a>
-				<a>
-					<h2>Veilig Samen Uit</h2>
-					<p>Bekijk de maatregelen</p>
-				</a>
-				<a>
-					<h2>Ontmoet onze dieren</h2>
-					<p>Een bos vol avontuur</p>
-				</a>
-				</section>
-
-				<section class="container2">
-					<div class="kolom">
-            <h2>Deze kerstvakantie:<br>Warme Winterweken</h2>
-					  <p>In de kerstvakantie is DierenPark Amersfoort omgetoverd tot een magisch winterpark. Laat je betoveren en leer alles over de winterse dierenwereld, warm je op aan hartverwarmende winterverhalen en ontdek de dieren in een park met duizenden lichtjes, kerstbomen en zelfs sneeuw. Beleef deze vakantie met je gehele gezin onvergetelijke momenten in DierenPark Amersfoort!</p>
-            <a>Lees verder <span>&gt;</span></a>
-          </div>
-          <div class="kolom">
-					  <img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/11/Winteravonden-v3-1920-x-1080-px-500x281.jpg" alt="meisje en tijgers">
-          </div>
+          </article>
         </section>
-				<div class="container3">
-					<h2>Beleef dé dierentuin voor<br>kinderen</h2>
-					<div class="foto1entext_container">
-						<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/10/Ontmoet-de-dierverzorger-2-500x333.jpg" alt="neushoorn en mensen">
-						<h3>Ontmoet de<br>dierverzorger</h3>
-						<p>Iedere dag</p>
-						<p>Op deze momenten krijg jij de kans om al je vragen te stellen aan de dierverzorgers. Ontmoet de dier...</p>
-						<button>Lees meer</button>
-					</div>
-					<div class="foto2entext_container">
-						<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/Dinopark-Amersfoort-500x333.jpg" alt="neushoorn en mensen">
-						<h3>Dinopark</h3>
-						<p>Op deze momenten krijg jij de kans om al je vragen te stellen aan de dierverzorgers. Ontmoet de dier...</p>
-						<button>Lees meer</button>
-					</div>
-					<div class="foto3entext_container">
-						<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/11/shutterstock_358500770-500x333.jpg" alt="neushoorn en mensen">
-						<h3>Wildlife Fund</h3>
-						<p>Op deze momenten krijg jij de kans om al je vragen te stellen aan de dierverzorgers. Ontmoet de dier...</p>
-						<button>Lees meer</button>
-					</div>
-				</div>
+
+		<!--De buttons voor de homepage-->
+
+		<section class="buttons-homepage">
+			<a>
+				<h2>Koop je tickets</h2>
+				<p>Bezoek reserveren</p>
+			</a>
+			<a>
+				<h2>Veilig Samen Uit</h2>
+				<p>Bekijk de maatregelen</p>
+			</a>
+			<a>
+				<h2>Ontmoet onze dieren</h2>
+				<p>Een bos vol avontuur</p>
+			</a>
+		</section>
+
+		<!-- Hier begint het kerstvakantie blok-->
+
+		<section class="kerstvakantie-blok">
+			<article>
+				<h2>Deze kerstvakantie:<br>Warme Winterweken</h2>
+				<p>In de kerstvakantie is DierenPark Amersfoort omgetoverd tot een magisch winterpark. Laat je betoveren en leer alles over de winterse dierenwereld, warm je op aan hartverwarmende winterverhalen en ontdek de dieren in een park met duizenden lichtjes, kerstbomen en zelfs sneeuw. Beleef deze vakantie met je gehele gezin onvergetelijke momenten in DierenPark Amersfoort!</p>
+				<a>Lees verder <span>&gt;</span></a>
+			</article>
+			<figure>
+				<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/11/Winteravonden-v3-1920-x-1080-px-500x281.jpg" alt="meisje en tijgers">
+			</figure>
+		</section>
+		
+		<!-- Hier begint de HTML voor de beleefblokken -->
+
+		<section class="beleef-blokken">
+			<h2>Beleef dé dierentuin voor<br>kinderen</h2>
+			
+			<div>
+				<figure>
+					<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/10/Ontmoet-de-dierverzorger-2-500x333.jpg" alt="neushoorn en mensen">
+				</figure>
+				<article>
+					<h3>Ontmoet de<br>dierverzorger</h3>
+					<h4>Iedere dag</h4>
+					<p>Op deze momenten krijg jij de kans om al je vragen te stellen aan de dierverzorgers. Ontmoet de dier...</p>
+					<a href="#">Lees meer</a>
+				</article>
 			</div>
+
+			<div>
+				<figure>
+					<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/Dinopark-Amersfoort-500x333.jpg" alt="driehoorn dino">
+				</figure>
+				<article>
+					<h3>Dinopark</h3>
+					
+					<p>Op reis naar lang, lang geleden! In het Dinopark ga je terug in de tijd en plotseling loop je rond t...</p>
+					<a href="#">Lees meer</a>
+				</article>
+			</div>
+
+			<div>
+				<figure>
+					<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/11/shutterstock_358500770-500x333.jpg" alt="Gorilla">
+				</figure>
+				<article>
+					<h3>Wildlife Fund</h3>
+					<p>Wist je dat er meer dan 26.000 diersoorten op de 'rode lijst'van bedreigde diersoorten? Tijd...</p>
+					<a href="#">Lees meer</a>
+				</article>
+			</div>
+					
+		</section>
+
+		<!-- Hier begint de HTML voor de ontdekblokken -->
+
+		<section class="ontdek-blokken">
+			<h2>Ontdek het park</h2>
+			<p>Neem alvast een kijkje. Elke wereld is anders en elke wereld ontdek je op een andere manier. Waar ga jij straks als eerste naar toe?</p>
+					
+			<article>
+				<div>
+					<h4>Klim Alles-route</h4>
+					<p>Dit wordt klimmen en klauteren geblazen! Ontdek de dieren van wel heel dichtbij.</p>
+					<a href="#">Meer weten</a>
+				</div>
+				<figure>
+					<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/Klim-Alles-route-200x300.jpg">
+				</figure>
+			</article>
+
+			<article>
+				<div>
+					<h4>In het dierenpark</h4>
+					<p>Vaar langs de giraffen en zebra's, ga op reis door het dinopark of duik op tussen de prairiehondjes.</p>
+					<a href="#">Meer weten</a>
+				</div>
+				<figure>
+					<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/In-het-dierenpark-3-200x300.jpg">
+				</figure>
+			</article>
+
+			<article>
+				<div>
+					<h4>Ontmoet onze dieren</h4>
+					<p>Leer de dierbewoners alvast een beetje kennen voor je ze straks echt ontmoet!</p>
+					<a href="#">Meer weten</a>
+				</div>
+				<figure>
+					<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/Prairiehond-189-200x300.jpg">
+				</figure>
+			</article>
+
+			<figure>
+				<img src="https://dierenparkamersfoort.nl/wp-content/uploads/2021/09/Plattegrond-homepage-1024x1018.png">
+				<a href="#">Bekijk de volledige plattegrond ></a>
+			</figure>
+		
+		</section>
+			
 		</main>
+
+		<!--Footer met icons-->
+
 		<footer>
-			<p>Deze website is een schoolproject en wordt niet gebruikt voor commerciële doeleinden.</p>
+			<article>
+				<a href="#">Aanmelden nieuwsbrief</a>
+				<p>Geef je op en blijf op de hoogte</p>
+				<a href="#">Bekijk de plattegrond</a>
+				<p>neem alvast een kijkje</p>
+				<a href="#">Contact</a>
+				<p>Neem contact met ons op</p>
+			</article>
+			<p>© DierenPark Amersfoort 2021</p>
+			<figure>
+				<a href="https://www.instagram.com/dierenparkamersfoort/">
+					<img src="images/instagram_icon.svg">
+				</a>
+
+				<a href="https://www.facebook.com/DierenParkAmersfoort/">
+					<img src="images/facebook_icon.svg">
+				</a>
+
+				<a href="https://twitter.com/dpamersfoort">
+					<img src="images/twitter_icon.svg">
+				</a>
+
+				<a href="https://www.youtube.com/user/dpamersfoort">
+					<img src="images/youtube_icon.svg">
+				</a>
+
+			</figure>
 		</footer>
+
 	</div>
 		<script src="scripts/script.js"></script>	
 </body>
