@@ -219,12 +219,12 @@ Ik ben tevreden met het eindresultaat wat ik heb mogen behalen. Na veel te hebbe
 
 ### Screenshot(s)
 
-<img src="images/eindresultaat1" alt="eindresultaat1">
- <img src="images/eindresultaat2" alt="eindresultaat2">
- <img src="images/eindresultaat3" alt="eindresultaat3">
- <img src="images/eindresultaat4" alt="eindresultaat4">
- <img src="images/eindresultaat5" alt="eindresultaat5">
- <img src="images/eindresultaat6" alt="eindresultaat6">
+<img src="images/eindresultaat1.png" alt="eindresultaat1">
+ <img src="images/eindresultaat2.png" alt="eindresultaat2">
+ <img src="images/eindresultaat3.png" alt="eindresultaat3">
+ <img src="images/eindresultaat4.png" alt="eindresultaat4">
+ <img src="images/eindresultaat5.png" alt="eindresultaat5">
+ <img src="images/eindresultaat6.png" alt="eindresultaat6">
 
 </details>
 
