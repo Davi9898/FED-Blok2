@@ -67,6 +67,10 @@ De website kleineert bij 1200px width 992px width 768px width
 <img src="images/menu768.png" width="375px" alt="breakdown van een dynamisch deel">
 1200px menu
 <img src="images/menu1200.png" width="375px" alt="breakdown van een dynamisch deel">
+ 
+Hier twee schetsen van wanneer de website een breakdownpoint bereikt.
+<img src="images/1200pxschets.png" width="375px" alt="breakdown schets">
+<img src="images/1200pxschets.png" width="375px" alt="breakdown schets">
 
 </details>
 
@@ -86,10 +90,9 @@ Ik vond het positioneren soms wel lastig. Het werkte soms gewoon niet. Ook heb i
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Daniël     | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ik heb geen vragen | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
@@ -118,20 +121,16 @@ Ik ben niet super erg opgeschoten deze week door omstandigheden. Ik moet nog fli
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Daniël     | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Ik heb geen vragen | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Minder focussen op het responsive maken van de website want dit kost veel tijd. Focussen op de surface van de website.
 
 </details>
 
@@ -146,23 +145,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ - Menu niet toegankelijk voor een screenreader
+ - Er misten veel alt tags binnen mijn HTML
+ - De kleurcontrast is goed.
+ - De website is toegankelijk voor mensen met Parkinson.
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Het menu moet toegankelijk gemaakt worden voor de screen reader. Dit moet zo gedaan worden dat het menu een element wordt die geselecteerd kan worden. Op mijn website is dit nog niet het geval.
 
 
 #### Titel tweede bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Er waren heel veel alt tags die ontbreekte binnen mijn HTML. Hierdoor konden de afbeeldingen niet worden voorgelezen waardoor het niet duidelijk was voor mensen die een screenreader gebruikte.
 
 
 #### Titel volgende bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Door gebruik te maken van de verschillende brillen die aanwezig waren en deze te hebben getest
 
 
 #### Titel nog een bevinding. 
@@ -182,7 +185,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De stand van zaken is dat ik nog heel veel classes en div's gebruik. Dit mag echter niet waardoor ik dit nog moet gaan aanpassen.
 
 
 ### Agenda voor meeting
@@ -190,18 +193,15 @@ samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Vragen of divs | en dit             | en ik dit    | en dan ik dat    |
+| mogen en classes| dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Alle classes en divs wegwerken is wat ik nog moet doen. En de rest van de website afmaken, ook nog door de W3C validator halen.
 
 </details>
 
@@ -215,11 +215,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben tevreden met het eindresultaat wat ik heb mogen behalen. Na veel te hebben gestruggled ben ik toch terecht gekomen waar ik terecht wilde komen. Het is helaas niet gelukt om de website responsive te maken omdat hier heel veel tijd in ging zitten. En ik was al heel veel tijd kwijt aan het maken van de surface van de website.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/eindresultaat1" alt="eindresultaat1">
+ <img src="images/eindresultaat1" alt="eindresultaat2">
+ <img src="images/eindresultaat1" alt="eindresultaat3">
+ <img src="images/eindresultaat1" alt="eindresultaat4">
+ <img src="images/eindresultaat1" alt="eindresultaat5">
+ <img src="images/eindresultaat1" alt="eindresultaat6">
 
 </details>
 
@@ -234,8 +239,12 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.youtube.com/watch?v=zGiirUiWslI
+2. https://www.youtube.com/watch?v=OtBpgtqrjyo
+3. https://www.w3schools.com/cssref/sel_before.asp
+4. https://www.w3schools.com/howto/howto_css_cards.asp
+5. https://css-tricks.com/currentcolor/
+6. https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
+
 
 </details>
