@@ -18,19 +18,18 @@ h2 {
   font-family: "Caveat", cursive;
 }
 
-h3{
+h3 {
   font-family: "Caveat", cursive;
 }
 
-h4{
+h4 {
   font-family: "Caveat", cursive;
   font-size: 1.4rem;
 }
 
-
-p{
-  font-family: 'Caveat', cursive;
-  font-family: 'PT Sans', sans-serif;
+p {
+  font-family: "Caveat", cursive;
+  font-family: "PT Sans", sans-serif;
 }
 
 img {
@@ -60,9 +59,8 @@ nav.toonnav {
   transform: translateY(0%);
 }
 
-nav ul{
+nav ul {
   padding: 1rem;
-  
 }
 
 nav li {
@@ -72,8 +70,8 @@ nav li {
   border-bottom: 1px solid rgba(64, 60, 54, 0.2);
   margin-top: 1.3rem;
   font-weight: bold;
-  font-family: 'Caveat', cursive;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "Caveat", cursive;
+  font-family: "PT Sans", sans-serif;
 }
 
 nav a {
@@ -106,7 +104,6 @@ header {
   }
 }
 
-
 header figure {
   width: 80px;
   display: flex;
@@ -119,18 +116,11 @@ header figure:nth-of-type(2) {
   left: -1%;
 }
 
-
-
-
-
-
 main {
   padding-top: 65px;
 }
 
-
 /* Video met tekst homepage */
-
 
 .video-blok {
   width: 100%;
@@ -138,20 +128,20 @@ main {
 }
 
 .video-blok h2 {
-  font-size: 4rem;  
+  font-size: 4rem;
 }
 
 video {
   width: 100%;
   height: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 @media (min-width: 768px) {
   .horizontaal {
     display: none;
   }
-  video{
+  video {
     padding-top: 1em;
     padding-left: 2em;
     padding-right: 2em;
@@ -162,14 +152,12 @@ video {
   .verticaal {
     display: none;
   }
-  
 }
 
 video p {
   color: red;
   z-index: 999;
 }
-
 
 .video-blok article {
   width: 100%;
@@ -189,16 +177,15 @@ video p {
   font-weight: bold;
 }
 
-
 /* hier beginnen de buttons voor de homepage */
 
 .buttons-homepage {
   width: 100%;
   bottom: -3rem;
   color: white;
-  padding:0 1.8rem;
+  padding: 0 1.8rem;
   position: relative;
-  display:flex;
+  display: flex;
   margin-top: -3rem;
   margin: 0 auto;
   max-width: 768px;
@@ -208,7 +195,7 @@ video p {
 @media (max-width: 768px) {
   .buttons-homepage {
     margin-top: -11.5rem;
-    display:block;
+    display: block;
   }
 }
 
@@ -217,7 +204,6 @@ video p {
     max-width: 1200px;
   }
 }
-
 
 .buttons-homepage a {
   margin: 1rem 0;
@@ -240,99 +226,94 @@ video p {
   background-color: #74c0e9;
 }
 
-
 /* Hier begint het kerstvakantieblok */
 
-
-.kerstvakantie-blok{
+.kerstvakantie-blok {
   background-color: #f9f3d9;
   padding-top: 9rem;
   margin-top: -5rem;
-  position:relative;
+  position: relative;
   height: 100%;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
 .kerstvakantie-blok::before {
-  content: '';
+  content: "";
   transform: translateY(-50%) rotate(-3deg);
   position: absolute;
   left: -10rem;
   right: -10rem;
-  top:100%;
+  top: 100%;
   background-color: #f9f3d9;
   height: 3rem;
 }
 
-.kerstvakantie-blok article{
+.kerstvakantie-blok article {
   width: 50%;
   padding: 1.5rem;
 }
 
-.kerstvakantie-blok figure{
+.kerstvakantie-blok figure {
   width: 100%;
   padding: 1.5rem;
 }
 
-.kerstvakantie-blok img{
+.kerstvakantie-blok img {
   position: relative;
   width: 90%;
   margin: 1.1rem;
   transform: rotate(3deg);
   box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
-  margin-bottom:-2.4rem;
+  margin-bottom: -2.4rem;
 }
 
 .kerstvakantie-blok h2 {
   font-size: 2rem;
   color: #f79533;
-  font-family: 'Caveat', cursive;
-  font-family: 'PT Sans', sans-serif;
-  padding-left: .8rem;
+  font-family: "Caveat", cursive;
+  font-family: "PT Sans", sans-serif;
+  padding-left: 0.8rem;
 }
 
 .kerstvakantie-blok p {
-  padding-left: .8rem;
+  padding-left: 0.8rem;
 }
 
-.kerstvakantie-blok a{
+.kerstvakantie-blok a {
   background-color: #f79533;
   padding: 0.8em;
-  color:white;
+  color: white;
   box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
   display: inline-block;
   margin-top: 2rem;
   font-family: "Caveat", cursive;
   font-weight: bold;
-  left: .8rem;
+  left: 0.8rem;
   position: relative;
 }
 
 @media (max-width: 768px) {
-  .kerstvakantie-blok article{
+  .kerstvakantie-blok article {
     width: 100%;
   }
-  
 }
 
 .kerstvakantie-blok a span {
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
-
 
 /* Hier begint de CSS voor de beleefblokken */
 
-
-.beleef-blokken{
+.beleef-blokken {
   padding: 5rem 1rem 1rem 1rem;
   display: flex;
   flex-wrap: wrap;
   color: #74c0e9;
 }
 
-.beleef-blokken h2{
+.beleef-blokken h2 {
   color: #74c0e9;
   text-align: center;
   font-size: 2.25rem;
@@ -341,12 +322,12 @@ video p {
   width: 100%;
 }
 
-.beleef-blokken div{
+.beleef-blokken div {
   display: flex;
   flex-wrap: wrap;
-  width:100%;
-  margin: .5rem;
-  padding: .5rem;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .beleef-blokken div:nth-of-type(2) {
@@ -357,7 +338,7 @@ video p {
   color: #8dc63f;
 }
 
-.beleef-blokken figure{
+.beleef-blokken figure {
   width: 40%;
 }
 
@@ -367,46 +348,43 @@ video p {
 }
 
 .beleef-blokken h3 {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   font-size: 1.4rem;
 }
 
-.beleef-blokken img{
+.beleef-blokken img {
   object-fit: cover;
   height: 100%;
 }
 
-.beleef-blokken a{
+.beleef-blokken a {
   text-decoration: none;
-  display:inline-block;
+  display: inline-block;
   padding-top: 1rem;
   color: currentColor;
 }
 
-.beleef-blokken h4{
+.beleef-blokken h4 {
   font-size: 0.9rem;
-  padding-bottom: .3rem;
+  padding-bottom: 0.3rem;
   color: #bbb;
 }
 
-
-.beleef-blokken p{
-  font-size: .9rem;
+.beleef-blokken p {
+  font-size: 0.9rem;
   color: black;
 }
 
-
 /* Hier begint de CSS voor de ontdekblokken */
 
-
-.ontdek-blokken{
+.ontdek-blokken {
   background-color: #ebf3f8;
   display: flex;
   flex-wrap: wrap;
   color: #74c0e9;
 }
 
-.ontdek-blokken h2{
+.ontdek-blokken h2 {
   color: #74c0e9;
   font-size: 2rem;
   padding: 2rem 0 0 2rem;
@@ -415,8 +393,7 @@ video p {
 .ontdek-blokken > p {
   color: black;
   padding-left: 2rem;
-  padding-top: .5rem;
-  
+  padding-top: 0.5rem;
 }
 
 .ontdek-blokken article p {
@@ -426,7 +403,7 @@ video p {
 .ontdek-blokken article {
   display: flex;
   flex-wrap: wrap;
-  width:100%;
+  width: 100%;
   background-color: white;
   height: 100%;
   margin: 1.4rem;
@@ -453,12 +430,11 @@ video p {
   color: #8dc63f;
 }
 
-
-.ontdek-blokken article figure{
+.ontdek-blokken article figure {
   width: 30%;
 }
 
-.ontdek-blokken article img{
+.ontdek-blokken article img {
   object-fit: cover;
   height: 100%;
 }
@@ -478,13 +454,13 @@ video p {
   display: inline-block;
   top: -9rem;
   left: 2rem;
-  background-color: #ef3636;;
+  background-color: #ef3636;
   font-family: "Caveat", cursive;
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1.9rem 0.5rem 1.9rem ;
+  padding: 0.5rem 1.9rem 0.5rem 1.9rem;
   font-size: 1.2rem;
-  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%); 
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
 }
 
 /*  Footer */
@@ -494,10 +470,10 @@ footer {
   padding-top: 3rem;
 }
 
-footer div a{
+footer div a {
   font-weight: bold;
-  font-family: 'Caveat', cursive;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "Caveat", cursive;
+  font-family: "PT Sans", sans-serif;
   font-size: 1rem;
   padding-left: 1.5rem;
   margin-top: 1.6rem;
@@ -508,7 +484,7 @@ footer div a{
 
 footer div p {
   padding-left: 1.5rem;
-  padding-top: .2rem;
+  padding-top: 0.2rem;
 }
 
 footer > p {
@@ -517,14 +493,14 @@ footer > p {
   padding-bottom: 4rem;
 }
 
-footer figure{
+footer figure {
   padding-bottom: 1rem;
-  padding-left: 1.0rem;
+  padding-left: 1rem;
 }
 
 footer img {
   width: 15%;
-  height:40px;
+  height: 40px;
   position: relative;
   bottom: 2.5rem;
 }
@@ -533,14 +509,11 @@ footer a {
   text-decoration: none;
 }
 
-
-
-
 /* In het dierenpark HTML pagina 2 */
 
 .dierenpark-blokken {
   padding-top: 2rem;
-  background-color:#f4f9ee;
+  background-color: #f4f9ee;
   display: flex;
   flex-wrap: wrap;
 }
@@ -549,9 +522,9 @@ footer a {
   color: white;
   text-decoration: none;
   background-color: #8dc63f;
-  padding: .7rem;
+  padding: 0.7rem;
   margin-left: 1.4rem;
-  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%); 
+  box-shadow: -4px 4px 0px 0 rgb(0 0 0 / 8%);
   font-family: "Caveat", cursive;
   font-weight: bold;
 }
@@ -564,16 +537,16 @@ footer a {
   font-size: 2.6rem;
 }
 
-.dierenpark-blokken div{
+.dierenpark-blokken div {
   display: flex;
   flex-wrap: wrap;
-  width:100%;
-  margin: .5rem;
-  padding: .5rem;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .dierenpark-blokken figure {
- width: 40%;
+  width: 40%;
 }
 
 .dierenpark-blokken article {
@@ -582,27 +555,27 @@ footer a {
 }
 
 .dierenpark-blokken h3 {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
   font-size: 1.4rem;
-  color:#74c0e9;
+  color: #74c0e9;
 }
 
-.dierenpark-blokken img{
+.dierenpark-blokken img {
   object-fit: cover;
   height: 100%;
 }
 
-.dierenpark-blokken article a{
+.dierenpark-blokken article a {
   text-decoration: none;
   display: inline-block;
-  padding-top:1rem;
+  padding-top: 1rem;
   color: #74c0e9;
   font-family: "Caveat", cursive;
   font-size: 1.4rem;
 }
 
-.dierenpark-blokken p{
-  font-size: .9rem;
+.dierenpark-blokken p {
+  font-size: 0.9rem;
 }
 
 .site2 footer {
