@@ -14,10 +14,6 @@ body {
   position: relative;
 }
 
-h1 {
-  font-family: "Caveat", cursive;
-  font-size: 3rem;
-}
 h2 {
   font-family: "Caveat", cursive;
 }
@@ -141,6 +137,9 @@ main {
   height: 600px;
 }
 
+.video-blok h2 {
+  font-size: 4rem;  
+}
 
 video {
   width: 100%;
@@ -495,7 +494,7 @@ footer {
   padding-top: 3rem;
 }
 
-footer article a{
+footer div a{
   font-weight: bold;
   font-family: 'Caveat', cursive;
   font-family: 'PT Sans', sans-serif;
@@ -507,7 +506,7 @@ footer article a{
   display: block;
 }
 
-footer article p {
+footer div p {
   padding-left: 1.5rem;
   padding-top: .2rem;
 }
