@@ -235,7 +235,7 @@ In de volgende afbeelding wordt weergegeven hoe de buttons een diepere kleur kri
  <img src="images/eindresultaat9.png" alt="eindresultaat9">
 Dit geldt echter voor alle interactieve elementen, behalve het logo en de social media.
  
-
+</details>
 ## Bronnenlijst
 
 <details>
