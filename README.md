@@ -236,7 +236,8 @@ In de volgende afbeelding wordt weergegeven hoe de buttons een diepere kleur kri
 Dit geldt echter voor alle interactieve elementen, behalve het logo en de social media.
  
 </details>
-#### Bronnenlijst
+
+### Bronnenlijst
 
 <details>
 
