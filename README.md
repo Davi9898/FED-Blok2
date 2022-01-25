@@ -67,7 +67,7 @@ Hier twee schetsen van wanneer de website een breakdownpoint bereikt.
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
 
 ### Stand van zaken
 Ik vond het positioneren soms wel lastig. Het werkte soms gewoon niet. Ook heb ik veel moeite gehad met die media query. Om te begrijpen waarom de button bij 768 opeens verwdijnt. Maar dat werd dus met een media query gedaan.
