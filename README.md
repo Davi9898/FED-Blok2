@@ -1,7 +1,6 @@
 
-## Jij
+## Ik
 
-<details>
 <open>
 
 ### Auteur:
@@ -11,7 +10,7 @@ Daniël Vink
 Rood
 
 #### Je focus:
-De focus zal liggen op de surface plane. Echter ga ik zoveel mogelijk proberen de website responsive te maken.
+Bij deze website leg ik de focus neer op de surface plane
  
 </details>
 
@@ -69,7 +68,6 @@ Hier twee schetsen van wanneer de website een breakdownpoint bereikt.
 ## Voortgang 1 (week 2)
 
 <details open>
-<summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
 Ik vond het positioneren soms wel lastig. Het werkte soms gewoon niet. Ook heb ik veel moeite gehad met die media query. Om te begrijpen waarom de button bij 768 opeens verwdijnt. Maar dat werd dus met een media query gedaan.
@@ -100,7 +98,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+
 
 ### Stand van zaken
 Ik ben niet super erg opgeschoten deze week door omstandigheden. Ik moet nog flink aan de slag om alles af te krijgen.
@@ -129,37 +127,43 @@ Minder focussen op het responsive maken van de website want dit kost veel tijd. 
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+Tijdens de 8e werkgroep zijn wij als klas een toegangkelijkheids test gaan ondernemen. Deze als functie om er achter te komen wat de toegangkelijkheid is van de huidige status van onze website. 
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
- - Menu niet toegankelijk voor een screenreader
+Lijst met bevindingen die ik heb gevonden:
+ - Menu niet toegangkelijk voor een screenreader
  - Er misten veel alt tags binnen mijn HTML
- - De kleurcontrast is goed.
+ - het kleurcontrast is goed.
  - De website is toegankelijk voor mensen met Parkinson.
+ - De verandering van kleur tijdens hoveren maakt interactieve elementen zichtbaar voor slechtzienden.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Menu niet toegangkelijk voor een screenreader
 
-Het menu moet toegankelijk gemaakt worden voor de screen reader. Dit moet zo gedaan worden dat het menu een element wordt die geselecteerd kan worden. Op mijn website is dit nog niet het geval.
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Er waren heel veel alt tags die ontbreekte binnen mijn HTML. Hierdoor konden de afbeeldingen niet worden voorgelezen waardoor het niet duidelijk was voor mensen die een screenreader gebruikte.
+Op dit moment kan een screenreader nog niet optimaal werken op mijn website. De website is nog niet zo optimaal geprogrammeerd dat de screenreader deze goed kan lezen. Een voorbeeld hiervan is het menu. Deze kan niet worden opengeklapt waardoor een blind persoon die een screenreader gebruikt deze nooit zou kunnen gebruiken. De screenreader vind het element ook niet. Hier zal ik in de toekomst een verandering in gaan brengen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Er missen alt tags
 
-Door gebruik te maken van de verschillende brillen die aanwezig waren en deze te hebben getest
+Tijdens het gebruiken van de screenreader ben ik erachter gekomen dat er veel alt tags ontbraken in mijn code. Dit zorgde ervoor dat een screenreader geen idee heeft wat er afgebeeld staat in een afbeelding. Hierdoor weet de gebruiker van een screenreader ook niet wat er afspeelt wat niet gebruikersvriendelijk is. Ik heb dit zo snel mogelijk aangepast. 
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Het kleurcontrast is goed
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Tijdens de les heb ik gebruik gemaakt van de aanwezige brillen. Door deze brillen te gebruiken ben ik erachter gekomen dat de verschillende elementen op mijn website goed te onderscheiden zijn van elkaar. Ook wanneer er sprake is van een wazig beeld of kleurenblindheid.
+
+
+#### Website toegankelijk voor mensen met Parkinson 
+
+Tijdens de les heb ik gebruik gemaakt van het apparaat wat je arm deed trillen. De website was vrijwel goed te besturen met het parkinson naboots apparaat. Echter waren alleen de kleine 'Lees meer' buttons iets moeilijker om aan te klikken. Dit maakt het misschien iets moeilijker maar het is voor alsnog goed te doen.
+
+ 
+#### Verandering kleur interactieve elementen 
+
+Door dat de kleur verandert van de meeste interactieve elementen is het voor slechtzienden gemakkelijker gemaakt om te herkennen wanneer een element interactief is. Dit zal ik onthouden om later ook toe te passen.
+ 
+#### Conclusie
+
+Mijn website is niet toegankelijk voor screenreaders. Dit zal ik in de toekomst nog moeten gaan verbeteren zodat dit ook toegankelijk is voor mensen met een beperking zoals blindheid. Wel kunnen mensen die wat slechter zien mijn website goed gebruiken en ook mensen met Parkinson. Echter denk ik dat het optimaal maken van een screenreader nog best complex kan zijn en ik moet hier dus ook nog veel over leren. Maar daar heb ik de tijd ook nog voor.
 
 </details>
 
@@ -170,7 +174,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+
 
 ### Stand van zaken
 De stand van zaken is dat ik nog heel veel classes en div's gebruik. Dit mag echter niet waardoor ik dit nog moet gaan aanpassen.
@@ -200,7 +204,7 @@ Alle classes en divs wegwerken is wat ik nog moet doen. En de rest van de websit
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+
 
 ### Stand van zaken
 Ik ben tevreden met het eindresultaat wat ik heb mogen behalen. Na veel te hebben gestruggled ben ik toch terecht gekomen waar ik terecht wilde komen. Het is helaas niet gelukt om de website responsive te maken omdat hier heel veel tijd in ging zitten. En ik was al heel veel tijd kwijt aan het maken van de surface van de website.
@@ -217,15 +221,25 @@ Ik ben tevreden met het eindresultaat wat ik heb mogen behalen. Na veel te hebbe
 </details>
 
 
+## Eindgesprek 2(week 6)
 
-
+<details>
+ 
+ 
+### Stand van zaken.
+Ik heb deze weken hard gewerkt aan een nieuwe iteratie van mijn website. Ik moest nog enkele elementen toevoegen zoals states aan mijn buttons. Ik heb nu alle buttons interactief gemaakt waardoor de website echt tot leven komt. Wel zo prettig voor de gebruiker. Ook heb ik mijn verslag opgeknapt en nu ik nog wat interactieve elementen erbij heb gekregen. Zelf geprobeerd of deze toegankelijk genoeg zijn voor groepen die er problemen mee zouden kunnen ervaren.
+ <img src="images/eindresultaat7.png" alt="eindresultaat7">
+Hier is het navigatie element te zien waar nu een hover state op zit.
+ <img src="images/eindresultaat8.png" alt="eindresultaat8">
+In de volgende afbeelding wordt weergegeven hoe de buttons een diepere kleur krijgen en een pijltje wat beweegt. Dit maakt het voor de gebruiker duidelijk dat het een interactief element is.
+ <img src="images/eindresultaat9.png" alt="eindresultaat9">
+Dit geldt echter voor alle interactieve elementen, behalve het logo en de social media.
+ 
 
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://www.youtube.com/watch?v=zGiirUiWslI
 2. https://www.youtube.com/watch?v=OtBpgtqrjyo
