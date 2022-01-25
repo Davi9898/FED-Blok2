@@ -12,8 +12,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<details open>
+
 
 ### Auteur:
 Daniël Vink
@@ -33,7 +33,7 @@ De focus zal liggen op de surface plane. Echter ga ik zoveel mogelijk proberen d
 ## Je website
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+
 
 ### Je opdracht:
 https://dierenparkamersfoort.nl/
@@ -53,7 +53,6 @@ hier de naam van de pagina
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
 De website kleineert bij 1200px width 992px width 768px width
 ### de hele pagina:
 1200px
