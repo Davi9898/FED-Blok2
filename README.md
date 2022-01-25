@@ -1,7 +1,7 @@
 
 ## Ik
 
-<open>
+<details>
 
 ### Auteur:
 Daniël Vink
