@@ -1,8 +1,8 @@
 
 ## Jij
 
-<details open>
-
+<details>
+<open>
 
 ### Auteur:
 Daniël Vink
