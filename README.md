@@ -238,7 +238,7 @@ Dit geldt echter voor alle interactieve elementen, behalve het logo en de social
 
 ## Bronnenlijst
 
-<details open>
+<details>
 
 
 1. https://www.youtube.com/watch?v=zGiirUiWslI
